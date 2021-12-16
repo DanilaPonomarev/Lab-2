@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,e,f;
+    scanf("%d %d %d %d %d", &a, &b, &c, &e, &f);
+    if(e<=a && a<=f)
+        printf("a входит в отрезок [e,f] a=%d\n",a);
+    else
+        printf("a не входит в отрезок [e,f]");
+    if(e<=b && b<=f)
+        printf("b входит в отрезок [e,f] b=%d\n",b);
+    else
+        printf("b не входит в отрезок [e,f]");
+    if(e<=c && c<=f)
+        printf("c входит в отрезок [e,f] c=%d\n",c);
+    else
+        printf("с не входит в отрезок [e,f]");
+}
