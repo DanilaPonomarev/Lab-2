@@ -1,0 +1,13 @@
+//2 вариант задания можно решить с помощью  SWITCH, т.к. в CASE нужно проверять значение
+#include <stdio.h>
+int main(){
+    int x,y;
+    scanf("%d %d", &x, &y);
+    switch(x)
+    {
+        case 5: y=x*x; break;
+        case 7: y=x%2; break;
+        default: y++; break;
+    }
+    printf("%d %d",x,y);
+}
