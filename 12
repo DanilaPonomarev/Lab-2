@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a,k1,k2,k3;
+    scanf("%d", &a);
+   if (a<6)
+        printf("Увы – рабочий день!");
+    if (a==6)
+        printf("Ура! Суббота!");
+    if (a==7)
+        printf("Ура! Воскресенье!");
+    return 0;
+}
